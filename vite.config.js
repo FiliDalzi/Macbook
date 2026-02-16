@@ -3,5 +3,8 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  // ... resto della config
+  build: {
+    chunkSizeWarningLimit: 2000, // Alza il limite a 2MB
+  },
 })
