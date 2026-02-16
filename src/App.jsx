@@ -8,6 +8,9 @@ import Performance from "./components/Performance.jsx";
 import Features from "./components/Features.jsx";
 import Highlights from "./components/Highlights.jsx";
 import Footer from "./components/Footer.jsx";
+import React from 'react'; // Aggiungi questa riga in cima
+import NavBar from "./components/NavBar.jsx";
+// ... tutti gli altri import
 
 gsap.registerPlugin(ScrollTrigger)
 
